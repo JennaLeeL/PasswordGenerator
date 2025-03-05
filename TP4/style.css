@@ -1,0 +1,50 @@
+*{
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./blue-code.gif);
+    background-size:cover;
+} 
+.container {
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 600px;
+
+}
+h2 {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 35px;
+    color: rgb(0, 54, 105);
+}
+.generator {
+    padding: 30px;
+    background-color: rgb(132, 200, 255);
+    justify-content: space-between;
+
+}
+.button {
+    font-size: 15px;
+    padding:10px;
+    border: none;
+    background-color: rgb(0, 54, 105) ;
+    color: white;
+}
+.passwordBox{
+    padding: 10px 10px;
+    background-color: rgb(0, 54, 105);
+    color: white;
+    
+}
+.generator div {
+    justify-content: space-between;
+    display: flex;
+}
+label,input{
+    display: inline-block;
+    vertical-align: middle;
+}
